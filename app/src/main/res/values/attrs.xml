@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EffectsView">
+        <attr name="modelCount" format="integer" />
+        <attr name="modelSpeedMin" format="dimension" />
+        <attr name="modelSpeedMax" format="dimension" />
+        <attr name="modelSizeMin" format="dimension" />
+        <attr name="modelSizeMax" format="dimension" />
+        <attr name="modelAlphaMin" format="integer" />
+        <attr name="modelAlphaMax" format="integer" />
+        <attr name="modelAngle" format="integer" />
+        <attr name="modelAlphaEnable" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

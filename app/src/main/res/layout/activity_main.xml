@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.doflamingo.effects.view.EffectsView
+        android:id="@+id/effects"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:modelCount="100"
+        app:modelAlphaEnable="true"
+        app:modelAlphaMax="255"
+        app:modelAlphaMin="155"
+        app:modelAngle="5"
+        app:modelSpeedMin="0.8dp"
+        app:modelSpeedMax="2dp"
+        app:modelSizeMin="12dp"
+        app:modelSizeMax="30dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnStart"
+        android:layout_marginLeft="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
