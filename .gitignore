@@ -14,4 +14,7 @@
 .cxx
 /app/build
 /gradle
-
+/matheffects/build
+/gradle
+/local
+/.idea
