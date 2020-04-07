@@ -55,5 +55,12 @@ class Randomizer {
 //        return (random.nextInt(3) + 6) / 9f
     }
 
+    /**
+     * Random.nextFloat()
+     */
+    fun randomFloat():Float{
+        return (1 + random.nextFloat()) * 9f / 18
+    }
+
     fun randomBoolean() = random.nextBoolean()
 }

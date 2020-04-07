@@ -7,7 +7,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="210dp"
-        android:src="@mipmap/icon_flower_first_frame"
+        android:src="@mipmap/icon_maple_first_frame"
         android:scaleType="centerCrop" />
 
     <org.doflamingo.matheffects.view.EffectsView

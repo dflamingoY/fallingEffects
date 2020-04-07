@@ -22,11 +22,11 @@ class EffectsView @JvmOverloads constructor(
             1,
             0f,
             arrayOf(
-                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_1),
-                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_2),
-                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_3),
-                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_4),
-                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_5)
+                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_maples_1),
+//                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_2),
+//                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_3),
+//                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_flower_4),
+                BitmapFactory.decodeResource(context.resources, R.mipmap.icon_maples_2)
             ),
             w,
             h,
@@ -35,7 +35,7 @@ class EffectsView @JvmOverloads constructor(
             25,
             40
         )
-        mData = Array(20) { FlowerModel(bean) }
+        mData = Array(20) { MapleModel(bean) }
     }
 
     override fun onDraw(canvas: Canvas) {
