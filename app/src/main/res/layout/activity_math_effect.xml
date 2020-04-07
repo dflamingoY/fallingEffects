@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@mipmap/icon_flower_first_frame"
+        android:scaleType="centerCrop" />
 
     <org.doflamingo.matheffects.view.EffectsView
+        android:id="@+id/effectsView"
         android:layout_width="match_parent"
         android:layout_height="210dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="无"
+                android:id="@+id/btnEmpty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="雨"
+                android:id="@+id/btnRain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="雪"
+                android:id="@+id/btnSnow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="叶"
+                android:id="@+id/btnLeaves"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="花"
+                android:id="@+id/btnFlower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="枫"
+                android:id="@+id/btnMaples"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
 </FrameLayout>

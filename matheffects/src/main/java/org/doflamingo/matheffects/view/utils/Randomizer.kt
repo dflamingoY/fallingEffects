@@ -19,10 +19,7 @@ package org.doflamingo.matheffects.view.utils
 import java.lang.Math.abs
 import java.util.Random
 
-/**
- * 数据正太分布，
- */
-internal class Randomizer {
+class Randomizer {
     private val random by lazy { Random() }
 
     fun randomDouble(max: Int): Double {
@@ -49,4 +46,14 @@ internal class Randomizer {
     fun randomSignum(): Int {
         return if (random.nextBoolean()) 1 else -1
     }
+
+    /*
+     0.5~0.9
+     */
+    fun randomFloat(range: Float): Float {
+        return (1 + random.nextFloat()) * 18f / 18
+//        return (random.nextInt(3) + 6) / 9f
+    }
+
+    fun randomBoolean() = random.nextBoolean()
 }
