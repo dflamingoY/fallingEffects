@@ -40,7 +40,7 @@ data class AnimBean(
     val direction: Int,
     val rotation: Int,
     val rotationRate: Float,
-    val resources: Array<Bitmap>,
+    var resources: Array<Bitmap>,
     val width: Int,
     val height: Int,
     val alphaMin: Int,

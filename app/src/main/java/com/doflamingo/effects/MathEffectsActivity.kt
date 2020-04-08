@@ -12,19 +12,24 @@ class MathEffectsActivity : AppCompatActivity(R.layout.activity_math_effect) {
             effectsView.start("")
         }
         btnRain.setOnClickListener {
-
+            ivBg.setImageResource(R.mipmap.icon_rain_first_frame)
+            effectsView.start("rain")
         }
         btnSnow.setOnClickListener {
-
+            ivBg.setImageResource(R.mipmap.icon_snow_bg)
+            effectsView.start("snow")
         }
         btnLeaves.setOnClickListener {
-
+            ivBg.setImageResource(R.mipmap.icon_leaves_first_frame)
+            effectsView.start("leaves")
         }
         btnFlower.setOnClickListener {
-
+            ivBg.setImageResource(R.mipmap.icon_flower_first_frame)
+            effectsView.start("flower")
         }
         btnMaples.setOnClickListener {
-
+            ivBg.setImageResource(R.mipmap.icon_maple_first_frame)
+            effectsView.start("maple")
         }
     }
 }
