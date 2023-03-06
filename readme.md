@@ -1,7 +1,9 @@
-项目效果, 支持多种资源, 可以动态切换
-
-![avatar](fdown.gif) 
 
 新增单种效果  (枫叶,花瓣儿,树叶,雪,雨)
 
-![avatar](effects.gif) 
+![avatar](and_42657f99-4932-4250-9618-4f67b27faada.gif) 
+
+
+项目效果, 支持多种资源, 可以动态切换
+
+![avatar](fdown.gif) 
